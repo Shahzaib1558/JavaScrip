@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+      <h1>Percentage Calculator</h1>
+      <form >
+       <!-- totoal marks -->
+       <label for="tm">Total marks:</label>
+       <input type="number" id="tm1" name="tm" placeholder="Enter total marks"><br><br>
+       <!-- obtained marks -->
+     <label for="om">Obtd marks:</label>
+     <input type="number" id="om1" name="om" placeholder="Enter obtained marks"><br><br>
+     <button type="button" onclick="getpercentage()">Click me</button>
+   
+      </form>
+    </div>
+    <br><br>
+    <div>
+        <h1>Zakaat Calculator</h1>
+      <form action="">
+         <label for="">Your total income:</label>
+         <input type="number" id="inc" name="inc" placeholder="Enter your income"><br><br>
+        <button type="button" onclick="zakat()">Click here</button>
+         
+      </form>
+    </div>
+<br><br>
+<div>
+     <h1>BMI Calculator</h1>
+  <form action="">
+        <label for="weight">Your weight in kg:</label>
+        <input type="number"id="wei" name="weight" placeholder="Enter your weight"><br><br>
+        <label for="height">Your height in cm:</label>
+        <input type="number" id="hei" name="height" placeholder="Enter your height"><br><br>
+        <button type="button" onclick="getbmi()">Click here</button>
+  </form>
+</div>
+<br><br>
+<div>
+  <h1>BMR Calculator</h1>
+  <form action="">
+    <label for="gender">Your gender:</label>
+    <select id="gen" name="gender"> 
+      <option value="male">male</option>
+      <option value="female">female</option>
+    </select><br><br>
+       <label for="age">Your age:</label>
+    <input type="number" id="ag" name="age" placeholder="Enter your age"><br><br>
+    <label for="height">Your height in cm:</label>
+    <input type="number" id="hi" name="height" placeholder="Enter your height"><br><br>
+    <label for="weight">Your weight in kg:</label>
+    <input type="number" id="we" name="weight" placeholder="Enter your weight"><br><br>
+    <button type="button" onclick="getbmr()">Click here</button>
+    <p id="result"></p>
+
+  </form>
+</div>
+
+
+      <script src="./index.js"></script>
+</body>
+</html>
