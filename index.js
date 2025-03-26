@@ -13,7 +13,7 @@ function getpercentage()
 
 function zakat()
 {
-   let wealth = document.getElementById(`inc`).value ;
+   let income = document.getElementById(`inc`).value ;
    let zakat = 2.5 ;
    let res = (wealth*zakat)/100 ;
    document.write(` your zakat is ${res}`)
